@@ -1,0 +1,8 @@
+{
+  "name": "pronosticador-ai",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=24.19" },
+  "scripts": { "start": "node --use-env-proxy server.js", "dev": "node --use-env-proxy --watch server.js", "sync": "node --use-env-proxy scripts/sync.js", "test": "node --test" }
+}
