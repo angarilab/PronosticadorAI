@@ -2,6 +2,14 @@
 
 Prototipo web en español para explorar probabilidades de fútbol europeo, con acceso gratuito y controles de acceso premium. Incluye registro, inicio/cierre de sesión, filtros por liga, análisis Poisson y explicación del método.
 
+## Vista del diseño
+
+Capturas reales de la aplicación ejecutada en Chromium, en modo demo con datos sintéticos. Son imágenes del diseño, no una web desplegada.
+
+[Ver escritorio](docs/capturas/escritorio.png) · [Ver móvil](docs/capturas/movil.png)
+
+![Diseño de escritorio de PronosticadorAI](docs/capturas/escritorio.png)
+
 ## Desarrollo
 
 Requiere Node.js 24.19 o superior, con `node:sqlite` y `--use-env-proxy`. No hay dependencias externas, instalación npm ni compilación.
